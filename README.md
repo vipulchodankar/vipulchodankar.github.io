@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # vipulchodankar-web-app
 
 ## Project setup
@@ -27,3 +28,7 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+=======
+# vipulchodankar.github.io
+My Website
+>>>>>>> 6385b993ec65167811f325e34fce67ad3eacd221
