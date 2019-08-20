@@ -6,6 +6,7 @@
       <v-layout id="intro" justify-center>
         <v-flex >
           <span>Hi.</span> I'm a second year undergraduate computer engineering student.
+          <a href="https://vipulchodankar.github.io/rgb-color-game-app/">RGB Game PWA</a>
         </v-flex>
       </v-layout>
     </v-container>

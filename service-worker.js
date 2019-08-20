@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.e2ea597caf2d1558b7657a0b5f9ad8f5.js"
+  "/precache-manifest.f8d8a1a1257a7b444a11d435cd6266f3.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "vipulchodankar-web-app"});
