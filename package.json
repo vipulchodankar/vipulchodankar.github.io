@@ -4,7 +4,8 @@
   "description": "My Website",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "serve": "http-server dist/ -p 1369 -c-1"
   },
   "repository": {
     "type": "git",

@@ -4,11 +4,82 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="-Vipul Chodankar. This is my personal website, where you can find info about me, my projects and how to contact me."
+    />
+    <meta name="keywords" content="vipul,chodankar,vipul chodankar,goa" />
+    <link
+      rel="shortcut icon"
+      href="images/icons/icon-192x192.png"
+      type="image/x-icon"
+    />
+    <link rel="manifest" href="manifest.json" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css"
+    />
     <link rel="stylesheet" href="css/main.css" />
-    <title>Document</title>
+    <title>Vipul Chodankar</title>
   </head>
 
-  <body>
-    <h1>Hello</h1>
+  <body id="bg-img">
+    <!-- <header>
+      <div class="menu-btn">
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+      </div>
+
+      <nav class="menu">
+        <div class="menu-brand">
+          <div class="portrait"></div>
+        </div>
+        <ul class="menu-nav">
+          <li class="nav-item">
+            <a href="/" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="/about.html" class="nav-link">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a href="/work.html" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="/contact.html" class="nav-link">How To Reach Me</a>
+          </li>
+        </ul>
+      </nav>
+    </header> -->
+
+    <main id="home">
+      <h1 class="lg-heading">
+        Vipul <span class="text-secondary">Chodankar</span>
+      </h1>
+      <h2 class="sm-heading">Student, Web Developer, Programmer & Gamer.</h2>
+      <div class="icons">
+        <a href="https://twitter.com/vipul_chodankar">
+          <i class="fab fa-twitter fa-2x"></i>
+        </a>
+        <a href="https://www.facebook.com/vipulchodankar0">
+          <i class="fab fa-facebook fa-2x"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/vipulchodankar">
+          <i class="fab fa-linkedin fa-2x"></i>
+        </a>
+        <a href="https://github.com/vipulchodankar">
+          <i class="fab fa-github fa-2x"></i>
+        </a>
+      </div>
+    </main>
+
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+          navigator.serviceWorker.register("/sw.js");
+        });
+      }
+    </script>
+    <script src="js/main.js"></script>
   </body>
 </html>
