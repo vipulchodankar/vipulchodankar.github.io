@@ -31,7 +31,7 @@ self.__precacheManifest = [
   },
   {
     "url": "css/main.css",
-    "revision": "46cb8ab7705c27b865bdffd27d575aff"
+    "revision": "438ae9fb355e85d9350aba9f2e5fb7ce"
   },
   {
     "url": "images/background.jpg",
@@ -71,7 +71,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "2f19c0525469fe650ff6568ea8fd0d69"
+    "revision": "be454d7c91e2c9dd34f075f617e9ad08"
   },
   {
     "url": "js/main.js",
